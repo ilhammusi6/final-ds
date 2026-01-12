@@ -1,7 +1,6 @@
 import pandas as pd
 import streamlit as st
-import seaborn as sns
-import matplotlib.pyplot as plt
+
 import numpy as np
 import plotly.express as px
 import plotly.graph_objects as go
@@ -36,3 +35,4 @@ with tab4:
 with tab5:
     import kontak
     kontak.contact_me()
+
